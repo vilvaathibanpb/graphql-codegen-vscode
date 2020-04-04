@@ -1,12 +1,30 @@
-# VS code extenion: graphql-codegen README
+# VS code extenion: graphql-codegen - README
 
-This is the README for your extension "graphql-codegen". After writing up a brief description, we recommend including the following sections.
+[GraphQL Codegen](https://graphql-code-generator.com/) is one of the best tools to achieve E2E type safe GraphQL apps. This project is a simple VS code extensions that makes it easier to use the tool in VS code.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+This VS code extension is built on top of graphql-codegen and hence inherits almost all the features of graphql-codegen.
 
-For example if there is an image subfolder under your extension project workspace:
+Few key features are:
+
+* All the dependencies and plugins are pre-installed and hence it requires **zero configuration** to start with
+
+* Once you are familiar with the graphql-codegen tool, you may install the VS code extension, add config file and start using the benefits already.
+
+* It has a dedicated Output screen with `Info` / `Error` Logs with time and detailed message about all the steps. It will be easy to debug based on which step it fails. 
+
+\!\[Success Info\]\(images/success_info.png\)
+
+\!\[Error Log\]\(images/error_log.png\)
+
+* Types/code can be generated or updated in one of the following methods: 
+
+    * Press `Ctrl`+`F1` for Windows or `CMD`+`F1` for Mac
+
+    * Enabling `onSave` flag in the `extension config` will generate types automatically on every save. Useful during development phase
+
+    * Press `CMD/Ctrl`+`Shift`+`P` and select `GraphQL Codegen` command
 
 \!\[feature X\]\(images/feature-x.png\)
 
