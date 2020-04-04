@@ -14,7 +14,7 @@ Few key features are:
 
 * It has a dedicated Output screen with `Info` / `Error` Logs with time and detailed message about all the steps. It will be easy to debug based on which step it fails. 
 
-\!\[Success Info\]\(images/success_info.png\)
+\!\[Success Info\]\(./images/success_info.png\)
 
 \!\[Error Log\]\(images/error_log.png\)
 
