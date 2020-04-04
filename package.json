@@ -1,0 +1,90 @@
+{
+  "name": "graphql-codegen-vscode",
+  "displayName": "graphql-codegen-vscode",
+  "description": "A straight forward VS code extension to use graphql-code-generator ",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:extension.graphQLCodegen"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.graphQLCodegen",
+        "title": "GraphQL Codegen"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "extension.graphQLCodegen",
+        "key": "ctrl+f1",
+        "mac": "cmd+f1",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "yarn run compile",
+    "compile": "tsc -p ./",
+    "lint": "eslint src --ext ts",
+    "watch": "tsc -watch -p ./",
+    "pretest": "yarn run compile && yarn run lint",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@graphql-codegen/add": "^1.13.1",
+    "@graphql-codegen/cli": "^1.11.2",
+    "@graphql-codegen/flow": "^1.13.1",
+    "@graphql-codegen/flow-operations": "^1.13.1",
+    "@graphql-codegen/flow-resolvers": "^1.13.1",
+    "@graphql-codegen/fragment-matcher": "^1.13.1",
+    "@graphql-codegen/introspection": "^1.13.1",
+    "@graphql-codegen/java": "^1.13.1",
+    "@graphql-codegen/java-apollo-android": "^1.13.1",
+    "@graphql-codegen/java-resolvers": "^1.13.1",
+    "@graphql-codegen/kotlin": "^1.13.1",
+    "@graphql-codegen/schema-ast": "^1.13.1",
+    "@graphql-codegen/time": "^1.13.1",
+    "@graphql-codegen/typescript": "^1.13.1",
+    "@graphql-codegen/typescript-apollo-angular": "^1.13.1",
+    "@graphql-codegen/typescript-document-nodes": "^1.13.1",
+    "@graphql-codegen/typescript-graphql-files-modules": "^1.13.1",
+    "@graphql-codegen/typescript-graphql-request": "^1.13.1",
+    "@graphql-codegen/typescript-mongodb": "^1.13.1",
+    "@graphql-codegen/typescript-operations": "^1.13.1",
+    "@graphql-codegen/typescript-react-apollo": "^1.13.1",
+    "@graphql-codegen/typescript-resolvers": "^1.13.1",
+    "@graphql-codegen/typescript-stencil-apollo": "^1.13.1",
+    "@graphql-codegen/typescript-type-graphql": "^1.13.1",
+    "@graphql-codegen/typescript-urql": "^1.13.1",
+    "@graphql-codegen/typescript-vue-apollo": "^1.13.1",
+    "@graphql-toolkit/core": "^0.9.7",
+    "@graphql-toolkit/json-file-loader": "^0.9.7",
+    "@graphql-toolkit/url-loader": "^0.9.7",
+    "@types/glob": "^7.1.1",
+    "@types/js-yaml": "^3.12.3",
+    "@types/mocha": "^7.0.1",
+    "@types/node": "^12.11.7",
+    "@types/prettier": "^2.0.0",
+    "@types/vscode": "^1.43.0",
+    "@typescript-eslint/eslint-plugin": "^2.18.0",
+    "@typescript-eslint/parser": "^2.18.0",
+    "eslint": "^6.8.0",
+    "glob": "^7.1.6",
+    "graphql": "^14.5.8",
+    "lodash": "^4.17.15",
+    "mocha": "^7.0.1",
+    "typescript": "^3.7.5",
+    "vscode-test": "^1.3.0"
+  },
+  "dependencies": {
+    "js-yaml": "^3.13.1",
+    "prettier": "^2.0.2"
+  }
+}
