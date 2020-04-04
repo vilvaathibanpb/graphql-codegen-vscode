@@ -1,6 +1,6 @@
-# graphql-codegen-vscode README
+# VS code extenion: graphql-codegen README
 
-This is the README for your extension "graphql-codegen-vscode". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "graphql-codegen". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 

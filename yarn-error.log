@@ -28,8 +28,8 @@ Trace:
 
 npm manifest: 
   {
-    "name": "graphql-codegen-vscode",
-    "displayName": "graphql-codegen-vscode",
+    "name": "graphql-codegen",
+    "displayName": "graphql-codegen",
     "description": "A straight forward VS code extension to use graphql-code-generator ",
     "version": "0.0.1",
     "engines": {
