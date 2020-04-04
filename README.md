@@ -29,13 +29,13 @@ Few key features are:
 
 * It has a dedicated Output screen with `Info` / `Error` Logs with time and detailed message about all the steps. It will be easy to debug based on which step it fails. 
 
-#### Success logs
+    #### Success logs
 
-![Success Info](https://github.com/vilvaathibanpb/graphql-codegen-vscode/blob/master/images/success_info.png)
+    ![Success Info](https://github.com/vilvaathibanpb/graphql-codegen-vscode/blob/master/images/success_info.png)
 
-#### Error logs
+    #### Error logs
 
-![Error Log](https://github.com/vilvaathibanpb/graphql-codegen-vscode/blob/master/images/error_log.png)
+    ![Error Log](https://github.com/vilvaathibanpb/graphql-codegen-vscode/blob/master/images/error_log.png)
 
 * Types/code can be generated or updated in one of the following methods: 
 
