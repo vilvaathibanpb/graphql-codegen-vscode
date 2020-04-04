@@ -1,4 +1,4 @@
-# VS code extenion: graphql-codegen - README
+# VS code extension: graphql-codegen - README
 
 [GraphQL Codegen](https://graphql-code-generator.com/) is one of the best tools to achieve E2E type safe GraphQL apps. This project is a simple VS code extensions that makes it easier to use the tool in VS code.
 
@@ -12,11 +12,30 @@ Few key features are:
 
 * Once you are familiar with the graphql-codegen tool, you may install the VS code extension, add config file and start using the benefits already.
 
+#### Extension Configuration 
+
+* Extension configuration. The following two things can be configured by creating a JSON file `codegen.vscode.json`:
+    * By default the extension looks for `codegen.yml` at the root directory. To use any other file as config file, add `"configFile": "newFilePath"` tot he JSON file
+    * By default, the types/code are generated only on Keyboard shortcuts or Command as mentioned below. To generate types on every save of the files, add `"onSave": true` to the JSON.
+
+    #### Sample codegen.vscode.json
+
+    ```sh
+    {
+        "configFile": "./customFile.yml",
+        "onSave": true
+    }
+    ```
+
 * It has a dedicated Output screen with `Info` / `Error` Logs with time and detailed message about all the steps. It will be easy to debug based on which step it fails. 
 
-\!\[Success Info\]\(./images/success_info.png\)
+#### Success logs
 
-\!\[Error Log\]\(https://github.com/vilvaathibanpb/graphql-codegen-vscode/blob/master/images/error_log.png\)
+![Success Info](https://github.com/vilvaathibanpb/graphql-codegen-vscode/blob/master/images/success_info.png)
+
+#### Error logs
+
+![Error Log](https://github.com/vilvaathibanpb/graphql-codegen-vscode/blob/master/images/error_log.png)
 
 * Types/code can be generated or updated in one of the following methods: 
 
@@ -26,58 +45,27 @@ Few key features are:
 
     * Press `CMD/Ctrl`+`Shift`+`P` and select `GraphQL Codegen` command
 
-\!\[feature X\]\(images/feature-x.png\)
+    #### VS Code Command
+    ![VS Code Command](https://github.com/vilvaathibanpb/graphql-codegen-vscode/blob/master/images/command.png)
 
 > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+Basic knowledge of GraphQL Code generator is required to make the best use of this extension.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Add support for `custom-plugins` 
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+This is the initial release of the extension. I expect the users to send feedback and file issues to the repo. Also, contributions are welcome.
 
 ### 1.0.0
 
-Initial release of ...
+Initial release
 
-### 1.0.1
+### License
 
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+MIT License
