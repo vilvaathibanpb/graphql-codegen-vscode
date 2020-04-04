@@ -16,7 +16,7 @@ Few key features are:
 
 \!\[Success Info\]\(images/success_info.png\)
 
-\!\[Error Log\]\(images/error_log.png\)
+\!\[Error Log\]\(https://github.com/vilvaathibanpb/graphql-codegen-vscode/blob/master/images/error_log.png\)
 
 * Types/code can be generated or updated in one of the following methods: 
 
