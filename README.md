@@ -48,7 +48,6 @@ Few key features are:
     #### VS Code Command
     ![VS Code Command](https://github.com/vilvaathibanpb/graphql-codegen-vscode/blob/master/images/command.png)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
 ## Requirements
 
