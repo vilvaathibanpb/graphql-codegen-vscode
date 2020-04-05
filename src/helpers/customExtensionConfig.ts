@@ -16,4 +16,4 @@ export const customExtensionConfig = (loggingService: LoggingService) => {
         loggingService.logWarning('GraphQL Codegen VS Code extension config file is not present or invalid');
         return null;
     }
-}
+};

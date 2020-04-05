@@ -31,11 +31,11 @@ Few key features are:
 
     #### Success logs
 
-    ![Success Info](https://github.com/vilvaathibanpb/graphql-codegen-vscode/blob/master/images/success_info.png)
+    ![Success Info](https://raw.githubusercontent.com/vilvaathibanpb/graphql-codegen-vscode/master/images/success_info.png)
 
     #### Error logs
 
-    ![Error Log](https://github.com/vilvaathibanpb/graphql-codegen-vscode/blob/master/images/error_log.png)
+    ![Error Log](https://raw.githubusercontent.com/vilvaathibanpb/graphql-codegen-vscode/master/images/error_log.png)
 
 * Types/code can be generated or updated in one of the following methods: 
 
@@ -46,16 +46,18 @@ Few key features are:
     * Press `CMD/Ctrl`+`Shift`+`P` and select `GraphQL Codegen` command
 
     #### VS Code Command
-    ![VS Code Command](https://github.com/vilvaathibanpb/graphql-codegen-vscode/blob/master/images/command.png)
+    ![VS Code Command](https://raw.githubusercontent.com/vilvaathibanpb/graphql-codegen-vscode/master/images/command.png)
 
 
 ## Requirements
 
 Basic knowledge of GraphQL Code generator is required to make the best use of this extension.
 
-## Known Issues
+## Known Issues / TODO
 
-Add support for `custom-plugins` 
+* Add support for `custom-plugins` 
+* Limit `onSave` type generation to specific file extension, 
+* Bundle using `webpack` to reduce the size and startup time
 
 ## Release Notes
 
