@@ -4,7 +4,7 @@
 
 ## Features
 
-This VS code extension is built on top of graphql-codegen and hence inherits almost all the features of graphql-codegen.
+This VS code extension is built on top of the graphql-codegen and hence inherits almost all the features of graphql-codegen.
 
 Few key features are:
 
